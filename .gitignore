@@ -1,0 +1,54 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore environment-specific files (e.g., virtual environments, conda environments)
+env/
+venv/
+*.env
+.venv/
+*.conda
+*.envrc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore test and coverage directories
+*.coveragerc
+.coverage
+.tox/
+.nox/
+*.nox/
+*.coverage.*
+*.hypothesis/
+.pytest_cache/
+
+# Ignore distribution directories and packaging files
+dist/
+build/
+*.egg-info/
+
+# Ignore IDE-specific files (for VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Ignore system-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Ignore environment-related files (if not needed to track)
+*.yaml
+*.yml
+*.env
+
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment
+venv/
+env/g
